@@ -150,7 +150,7 @@ export default {
   },
 
   async fetch () {
-    this.fetchEventsData()
+    await this.fetchEventsData()
   },
 
   methods: {
